@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temporizador JavaScript</title>
+</head>
+<body>
+    <h1>Temporizador Javascript</h1>
+    <div id="caixa-temporizador">
+        <div id="caixa-inputs">
+            <input id="input-minutos" type="number" min="0" max="60">
+            <p>:</p>
+            <input id="input-segundos" type="number" min="0" max="60">
+        </div>
+
+        <div id="caixa-buttons">
+            <button id="button-iniciar" onclick="Iniciar()">Iniciar</button>
+            <button id="button-parar" onclick="Parar()">Parar</button>
+        </div>
+    </div>
+
+    <script src="temporizador.js"></script>
+</body>
+</html>

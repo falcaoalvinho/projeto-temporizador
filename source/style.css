@@ -1,0 +1,91 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 50px;
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+    gap: 30px;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: #212121;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 700;
+}
+
+p {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+#caixa-temporizador {
+    padding: 30px;
+
+    border-radius: 20px;
+
+    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.4);
+
+    background-color: #4e4e4e;
+}
+
+#caixa-temporizador h1 {
+    margin-bottom: 30px;
+
+}
+
+#caixa-inputs {
+    gap: 15px;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#caixa-inputs input {
+    padding: 15px 15px;
+
+    border-radius: 15px;
+    border-style: none;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    color: #212121;
+}
+
+#caixa-buttons {
+    display: flex;
+    justify-content:end;
+    gap: 15px;
+}
+
+#caixa-buttons button {
+    font-weight: 600;
+
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+#button-iniciar {
+    color: #fff;
+    background-color: #00AD1C;
+}
+
+#button-parar {
+    color: #fff;
+    background-color: #FF3939;
+}
